@@ -4,7 +4,7 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button1",
-    "onClick": "{{postWindowMessage('lslslsaaa', \"Iframe2\", \"*\");}}",
+    "onClick": "{{appsmith.geolocation.getCurrentPosition((location) => {\n      // add code here\n    });}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
     "dynamicPropertyPathList": [],
     "displayName": "Button",
