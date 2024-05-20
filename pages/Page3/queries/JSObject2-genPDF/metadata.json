@@ -2,8 +2,8 @@
   "pluginType": "JS",
   "pluginId": "js-plugin",
   "unpublishedAction": {
-    "name": "myFun1",
-    "fullyQualifiedName": "JSObject2.myFun1",
+    "name": "genPDF",
+    "fullyQualifiedName": "JSObject2.genPDF",
     "datasource": {
       "name": "UNUSED_DATASOURCE",
       "pluginId": "js-plugin",
@@ -23,7 +23,6 @@
       "jsArguments": []
     },
     "executeOnLoad": false,
-    "clientSideExecution": true,
     "dynamicBindingPathList": [
       {
         "key": "body"
@@ -36,9 +35,9 @@
     "confirmBeforeExecute": false,
     "policies": [],
     "userPermissions": [],
-    "createdAt": "2024-05-20T12:19:22Z"
+    "createdAt": "2024-05-20T13:01:29Z"
   },
-  "id": "Page3_JSObject2.myFun1",
+  "id": "Page3_JSObject2.genPDF",
   "deleted": false,
-  "gitSyncId": "664b21289716792fc6d8db92_16cc2d62-2417-4aad-ac0c-a49ac49c6f8c"
+  "gitSyncId": "664b21289716792fc6d8db92_e0b4f954-bd34-4266-8a35-9168f85b990d"
 }

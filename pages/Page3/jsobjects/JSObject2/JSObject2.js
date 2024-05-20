@@ -1,12 +1,8 @@
 export default {
-	myVar1: [],
-	myVar2: {},
-	myFun1 () {
-		//	write code here
-		//	this.myVar1 = [1,2,3]
-	},
-	async myFun2 () {
-		//	use async-await or promises
-		//	await storeValue('varName', 'hello world')
+	genPDF: () => {
+		const doc = new jspdf.jsPDF();
+	doc.text('Users', 20, 20);
+		doc.table(20, 30, Table1.tableData, Table1.columnOrder, {autoSize: true});
+		download(doc.output(), 'users_list.pdf');
 	}
 }
