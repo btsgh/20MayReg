@@ -4,9 +4,9 @@
     "boxShadow": "none",
     "mobileBottomRow": 22,
     "widgetName": "Button1",
-    "onClick": "{{appsmith.geolocation.getCurrentPosition((location) => {\n      // add code here\n    });}}",
+    "onClick": "{{appsmith.geolocation.watchPosition();}}",
     "buttonColor": "{{appsmith.theme.colors.primaryColor}}",
-    "dynamicPropertyPathList": [],
+    "dynamicPropertyPathList": [{"key": "onClick"}],
     "displayName": "Button",
     "iconSVG": "https://appcdn.appsmith.com/static/media/icon.cb7371e9a48acf9db0f2f3ea0a714255.svg",
     "searchTags": [
