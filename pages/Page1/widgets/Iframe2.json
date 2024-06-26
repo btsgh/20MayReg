@@ -1,50 +1,58 @@
 {
-    "needsErrorInfo": false,
-    "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
-    "mobileBottomRow": 68,
-    "widgetName": "Iframe2",
-    "srcDoc": "<div id=\"target\"><\/div>\n\n<script>\nwindow.addEventListener('message', (event) => {\n    const tgt = document.querySelector(\"#target\")\n        tgt.textContent = event.data\n    });\n<\/script>",
-    "displayName": "Iframe",
-    "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99e0e6020fd949e060892f1c6a291b5a.svg",
-    "searchTags": ["embed"],
-    "topRow": 36,
-    "bottomRow": 68,
-    "parentRowSpace": 10,
-    "source": "https://www.example.com",
-    "type": "IFRAME_WIDGET",
-    "hideCard": false,
-    "mobileRightColumn": 17,
-    "borderOpacity": 100,
-    "animateLoading": true,
-    "parentColumnSpace": 11.890625,
-    "dynamicTriggerPathList": [],
-    "leftColumn": 0,
-    "dynamicBindingPathList": [
-        {"key": "borderRadius"},
-        {"key": "boxShadow"}
-    ],
-    "borderWidth": 1,
-    "flexVerticalAlignment": "start",
-    "key": "eiwhbppbst",
-    "isDeprecated": false,
-    "rightColumn": 24,
-    "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.542dc4e979f061c70c19af83e2460c35.svg",
-    "widgetId": "0moix2y6dk",
-    "onCanvasUI": {
-        "focusBGCSSVar": "--on-canvas-ui-widget-focus",
-        "disableParentSelection": false,
-        "focusColorCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
-        "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  "animateLoading": true,
+  "borderOpacity": 100,
+  "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
+  "borderWidth": 1,
+  "bottomRow": 68,
+  "boxShadow": "{{appsmith.theme.boxShadow.appBoxShadow}}",
+  "displayName": "Iframe",
+  "dynamicBindingPathList": [
+    {
+      "key": "borderRadius"
     },
-    "isVisible": true,
-    "version": 1,
-    "parentId": "0",
-    "tags": ["Display"],
-    "renderMode": "CANVAS",
-    "isLoading": false,
-    "mobileTopRow": 36,
-    "responsiveBehavior": "fill",
-    "borderRadius": "{{appsmith.theme.borderRadius.appBorderRadius}}",
-    "mobileLeftColumn": 0
+    {
+      "key": "boxShadow"
+    }
+  ],
+  "dynamicTriggerPathList": [],
+  "flexVerticalAlignment": "start",
+  "hideCard": false,
+  "iconSVG": "https://appcdn.appsmith.com/static/media/icon.99e0e6020fd949e060892f1c6a291b5a.svg",
+  "isDeprecated": false,
+  "isLoading": false,
+  "isVisible": true,
+  "key": "eiwhbppbst",
+  "leftColumn": 0,
+  "mobileBottomRow": 68,
+  "mobileLeftColumn": 0,
+  "mobileRightColumn": 17,
+  "mobileTopRow": 36,
+  "needsErrorInfo": false,
+  "onCanvasUI": {
+    "disableParentSelection": false,
+    "focusBGCSSVar": "--on-canvas-ui-widget-focus",
+    "focusColorCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionBGCSSVar": "--on-canvas-ui-widget-selection",
+    "selectionColorCSSVar": "--on-canvas-ui-widget-focus"
+  },
+  "parentColumnSpace": 11.890625,
+  "parentId": "0",
+  "parentRowSpace": 10,
+  "renderMode": "CANVAS",
+  "responsiveBehavior": "fill",
+  "rightColumn": 24,
+  "searchTags": [
+    "embed"
+  ],
+  "source": "https://www.example.com",
+  "srcDoc": "<div id=\"target\"></div>\n\n<script>\nwindow.addEventListener('message', (event) => {\n    const tgt = document.querySelector(\"#target\")\n        tgt.textContent = event.data\n    });\n</script>",
+  "tags": [
+    "Display"
+  ],
+  "thumbnailSVG": "https://appcdn.appsmith.com/static/media/thumbnail.542dc4e979f061c70c19af83e2460c35.svg",
+  "topRow": 36,
+  "type": "IFRAME_WIDGET",
+  "version": 1,
+  "widgetId": "0moix2y6dk",
+  "widgetName": "Iframe2"
 }
